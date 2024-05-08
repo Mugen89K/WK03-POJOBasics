@@ -4,7 +4,12 @@ strings. It should return true if all of the strings in the array are keys in
 the object.
 */
 
-// Your code here 
+const hasKeys = (obj, arr) => {
+  for (let el of arr) {
+    if (obj[el] === undefined) return false
+  }
+  return true;
+}
 
 // let survey = {
 //   name: 'Check',

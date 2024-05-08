@@ -4,7 +4,9 @@ string parameter and returns the value from the object at the key of the string
 passed in.
 */
 
-// Your code here 
+const variableAsKey = (obj, key) => {
+  return obj[key]
+}
 
 // Example:
 // const obj = {

@@ -3,7 +3,12 @@ Write a function called printNames that takes in an array of objects. It should
 loop through all of the objects and print the "name" key from each object.
 */
 
-// Your code here 
+const printNames = (arr) => {
+  for (let obj of arr) {
+    let value = obj.name;
+    console.log(value)
+  }
+}
 
 // Example:
 // printNames([
